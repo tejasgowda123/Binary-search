@@ -7,8 +7,7 @@ class BinarySearch {
 		if (r >= l) {
 			int mid = l + (r - l) / 2;
 
-			// If the element is present at the
-			// middle itself
+			// If the element is present at the middle itself
 			if (a[mid] == x)
 				return mid;
 
@@ -38,7 +37,7 @@ class BinarySearch {
 		if (result == -1)
 			System.out.println("Element is not found");
 		else
-			System.out.println("Element is found at the index "
+			System.out.println("Element is found at index "
 							+ result);
 	}
 }
