@@ -1,7 +1,6 @@
 // Java implementation of recursive Binary Search
 class BinarySearch {
-	// Returns index of x if it is present in a[l..
-	// r], else return -1
+	// Returns index of x if it is present in a[l..r], else return -1
 	int binarySearch(int a[], int l, int r, int x)
 	{
 		if (r >= l) {
