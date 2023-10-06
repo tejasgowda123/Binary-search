@@ -38,7 +38,7 @@ class BinarySearch {
 		if (result == -1)
 			System.out.println("Element is not found");
 		else
-			System.out.println("Element is found at index "
+			System.out.println("Element is found at the index "
 							+ result);
 	}
 }
